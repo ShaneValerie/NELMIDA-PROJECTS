@@ -20,6 +20,7 @@ Simple Arithmetic:
 
 Input: 5 + 3
 Press = to get the result: 8.
+
 Another Example:
 
 Input: 10 * 2
