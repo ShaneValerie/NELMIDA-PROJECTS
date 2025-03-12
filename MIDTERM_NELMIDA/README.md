@@ -16,6 +16,7 @@ Press the = button to get the result.
 Press the C or Clear button to reset the calculator and start fresh.
 
 Example Usage
+
 Simple Arithmetic:
 
 Input: 5 + 3
