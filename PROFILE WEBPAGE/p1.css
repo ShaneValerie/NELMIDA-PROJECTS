@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url('start.png'); 
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1; 
+    transform: translateY(0); 
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out; 
+}
+
+
+body.fade-slide-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+button {
+    font-size: 25px;
+    color: rgba(109, 186, 195, 0.988);
+    border: 2px solid rgb(249, 246, 238);
+    border-radius: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: rgb(251, 251, 224);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button:active {
+    background-color: lightgoldenrodyellow;
+}
+.skills-items {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: #eaeaea;
+    width: 250px;
+    border-radius: 8px;
+  }
+  
