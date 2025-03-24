@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Truths and One Lie</title>
+</head>
+<body>
+
+    <h2>Two Truths and One Lie</h2>
+    <p>Click on the statement that you think is a lie!</p>
+    <p>If it turns green, it's the truth; if it turns red, it's a lie!</p>
+
+    <p id="s1">1. I have hamsters.</p>
+    <p id="s2">2. I have 3 sisters.</p>
+    <p id="s3">3. I love coffee. </p>
+
+    <script>
+        const truth1 = document.getElementById("s1");
+        const truth2 = document.getElementById("s2");
+        const lie = document.getElementById("s3");
+
+        truth1.onclick = function() {
+            truth1.style.background = "green";
+        };
+
+        truth2.onclick = function() {
+            truth2.style.background = "green";
+        };
+
+        lie.onclick = function() {
+            lie.style.background = "red";
+        };
+    </script>
+
+</body>
+</html>
